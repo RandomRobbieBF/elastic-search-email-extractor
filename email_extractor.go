@@ -32,7 +32,7 @@ func searchURLs(url string) {
    
 
     // create and execute the HTTP request
-    req, err := http.NewRequest("GET", url + "/_search?q=text&size=50000", nil)
+    req, err := http.NewRequest("GET", url + "/_search?q=text&size=5000", nil)
     if err != nil {
         // handle error
     }
