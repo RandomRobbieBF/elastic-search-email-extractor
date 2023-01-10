@@ -20,8 +20,9 @@ Usage
 To run the program, you can provide a list of URLs as command line arguments:
 
 ```
-go run email_extractor.go https://www.example.com https://www.example2.com
+go run email_extractor.go http://111.111.111.111:9200
 ```
+
 Alternatively, you can provide a text file containing a list of URLs, one per line:
 
 ```
