@@ -1,8 +1,11 @@
-### Email Extractor
+Email Extractor
+---
 
 This Go program is designed to extract email addresses from a list of Elastic Search Databases. 
 
 It takes in a list of URLs and will search the Database of each URL to find email addresses.
+
+
 
 Install
 ----
